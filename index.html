@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="app">
+
+            <h3 id="plc">Calculator</h3>
+
+            <form id="input-box">
+                <input id= "res" type="text" placeholder='0' >
+            </form>
+
+            <div class="button-box"> 
+<!-- 
+                <script>
+                    function makeMyButtons(){
+                        for(let i = 0 ; i<10 ; i++){
+                            let btns = document.createElement('input');
+                            btns.value = `${i}`;
+                            btns.type = "button"
+
+                            btnVal.append(btns);
+    }
+
+    makeMyButtons()
+}
+
+        
+
+                </script>  -->
+                
+                 
+                    <input class = "items" type="button" value="1" > 
+                    <input class = "items" type="button" value="2">
+                    <input class = "items" type="button" value="3"> 
+                    <input class = "items-del"  type="button" value="DEL">
+                    <input class = "items" type="button" value="4">
+                    <input class = "items" type="button" value="5">
+                    <input class = "items" type="button" value="6">
+                    <input class = "items" type="button" value="+">
+                    <input class = "items" type="button" value="7">
+                    <input class = "items" type="button" value="8">
+                    <input class = "items" type="button" value="9"> 
+                    <input class = "items" type="button" value="-">
+                    <input class = "items" type="button" value=".">
+                    <input class = "items" type="button" value="0"> 
+                    <input class = "items" type="button" value="/">
+                    <input class = "items" type="button" value="*">
+                    
+                    <input id= "reset" class="button reset" type="button" value="RESET">
+                    <input id = "equal" class="button equal" type="button" value="=">
+                
+            </div>
+        </div>
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>
